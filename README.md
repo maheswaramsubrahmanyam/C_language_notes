@@ -11,12 +11,12 @@ File > New
 
 #include <stdio.h>
  
-int main()
-{
+int main()<br>
+{<br>
    printf("Studyopedia C Language Tutorial"); 
- 
+ <br>
    return 0;
-}
+}<br>
  
 Here,
 
@@ -38,3 +38,18 @@ Used to print the formatted string to stdout. The standard output is stdout.
 return
 
 Terminates the function execution and the return statement returns the control to the calling function.
+
+
+C is the widely used language. It provides many features that are given below.
+
+Simple
+Machine Independent or Portable
+Mid-level programming language
+structured programming language
+Rich Library
+Memory Management
+Fast Speed
+Pointers
+Recursion
+Extensible
+![image](https://github.com/user-attachments/assets/8228baea-a92c-4bae-9741-5f5021984f7a)
