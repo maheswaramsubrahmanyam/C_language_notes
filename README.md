@@ -11,12 +11,12 @@ File > New
 
 #include <stdio.h>
  
-```int main()
+``int main()
 {
    printf("Studyopedia C Language Tutorial"); 
  
    return 0;
-}```
+}``
 
  
 Here,
