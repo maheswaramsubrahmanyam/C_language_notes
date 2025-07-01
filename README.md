@@ -54,3 +54,15 @@ Pointers
 Recursion
 Extensible
 ![image](https://github.com/user-attachments/assets/8228baea-a92c-4bae-9741-5f5021984f7a)
+
+<br>
+<br>
+What is a compilation?<br>
+The compilation is a process of converting the source code into object code. It is done with the help of the compiler. The compiler checks the source code for the syntactical or structural errors, and if the source code is error-free, then it generates the object code.<br>
+
+
+![image](https://github.com/user-attachments/assets/a713bb4a-d5fa-4e57-959a-89c735294ba5)
+<br>
+The c compilation process converts the source code taken as input into the object code or machine code. The compilation process can be divided into four steps, i.e., Pre-processing, Compiling, Assembling, and Linking.<br>
+
+The preprocessor takes the source code as an input, and it removes all the comments from the source code. The preprocessor takes the preprocessor directive and interprets it. For example, if <stdio.h>, the directive is available in the program, then the preprocessor interprets the directive and replace this directive with the content of the 'stdio.h' file.<br>
