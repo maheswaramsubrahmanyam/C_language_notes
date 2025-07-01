@@ -72,3 +72,19 @@ The preprocessor takes the source code as an input, and it removes all the comme
 ![image](https://github.com/user-attachments/assets/01ff5016-9c46-4e48-9fec-f175be345b3f)
 <br>
 
+Preprocessor<br>
+The preprocessor processes directives like #include and #define before actual compilation.<br>
+It expands macros and includes header files into the source code.<br>
+<br>
+Compiler<br>
+The compiler translates the expanded code into low-level assembly code.<br>
+It also performs syntax checking and optimization during this phase.<br>
+<br>
+Assembler<br>
+The assembler converts the assembly code into machine-level object code.<br>
+It generates a file with a .obj (DOS) or .o (UNIX) extension.<br>
+<br>
+Linker<br>
+The linker combines the program’s object code with library object code.<br>
+It produces the final executable file like .exe (DOS) or a.out (UNIX).<br>
+<br>
