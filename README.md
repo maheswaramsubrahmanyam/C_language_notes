@@ -66,3 +66,9 @@ The compilation is a process of converting the source code into object code. It 
 The c compilation process converts the source code taken as input into the object code or machine code. The compilation process can be divided into four steps, i.e., Pre-processing, Compiling, Assembling, and Linking.<br>
 
 The preprocessor takes the source code as an input, and it removes all the comments from the source code. The preprocessor takes the preprocessor directive and interprets it. For example, if <stdio.h>, the directive is available in the program, then the preprocessor interprets the directive and replace this directive with the content of the 'stdio.h' file.<br>
+
+<br>
+
+![image](https://github.com/user-attachments/assets/01ff5016-9c46-4e48-9fec-f175be345b3f)
+<br>
+
