@@ -161,18 +161,21 @@ int main() {
 📝 Example Code: Combining Text and Variables
 
 <br>
-```#include<stdio.h>
+
+```
+#include<stdio.h>
 
 int main() {
     int a = 156;
     float b = 14.3;
     char c = 'A';
 
-    // to combine text and variables, separate them with a comma inside printf()
+    to combine text and variables, separate them with a comma inside printf()
     printf("My integer value is : %d", a);
 
     return 0;
 }```
+
 
 
 ---
