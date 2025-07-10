@@ -157,5 +157,43 @@ int main() {
     return 0;
 }
 ```
+---
+📝 Example Code: Combining Text and Variables
+
+<br>
+```#include<stdio.h>
+
+int main() {
+    int a = 156;
+    float b = 14.3;
+    char c = 'A';
+
+    // to combine text and variables, separate them with a comma inside printf()
+    printf("My integer value is : %d", a);
+
+    return 0;
+}```
 
 
+---
+
+💬 Comments in C Language<br<
+Comments are used to explain the code. They improve readability and are not part of the execution.<br>
+
+🔹 Single-line Comments<br>
+Declared with two forward slashes //
+
+```
+// printing hello world using printf() function
+printf("Hello World");
+```
+
+🔸 Multi-line Comments<br>
+Start with /* and end with */<br>
+```
+/*
+This is a multi-line comment.
+Used to explain a block of code.
+Helps in making the code more understandable.
+*/
+```
