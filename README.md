@@ -146,8 +146,8 @@ return 0;
 
 }```
 <br>
-```
-#include<stdio.h>
+
+```#include<stdio.h>
 int main() {
     
 int a = 156;
