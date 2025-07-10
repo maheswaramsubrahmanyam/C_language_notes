@@ -197,3 +197,45 @@ Used to explain a block of code.
 Helps in making the code more understandable.
 */
 ```
+
+
+## 🧠 Get the Memory Size of Data Types in C
+
+In the **Data Types** chapter, we learned that the memory size of a variable depends on its type.
+
+### 📊 Common Data Type Sizes
+
+| Data Type | Typical Size      |
+|-----------|-------------------|
+| `int`     | 2 or 4 bytes       |
+| `float`   | 4 bytes            |
+| `double`  | 8 bytes            |
+| `char`    | 1 byte             |
+
+> 🧩 The **memory size** refers to how much space a type occupies in the computer's memory.
+
+---
+
+## 📏 Using `sizeof` Operator
+
+To get the actual memory size (in bytes) of a data type or variable, use the `sizeof` operator.
+
+### 🔍 Example Code
+
+```c
+#include <stdio.h>
+
+int main() {
+    int myInt;
+    float myFloat;
+    double myDouble;
+    char myChar;
+
+    printf("%zu\n", sizeof(myInt));
+    printf("%zu\n", sizeof(myFloat));
+    printf("%zu\n", sizeof(myDouble));
+    printf("%zu\n", sizeof(myChar));
+
+    return 0;
+}
+```
