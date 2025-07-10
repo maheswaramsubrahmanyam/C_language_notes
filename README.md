@@ -21,13 +21,6 @@ int main()
 {
     printf("Studyopedia C Language Tutorial"); 
     return 0;
-}```
+}
+```
 ---
-
-| Component    | Description                                                  |
-| ------------ | ------------------------------------------------------------ |
-| `#include`   | Preprocessor directive; the first thing read by the compiler |
-| `stdio.h`    | Header file containing input/output functions                |
-| `int main()` | Main function of the program with return type `int`          |
-| `printf`     | Prints formatted strings to standard output                  |
-| `return`     | Terminates the function and returns control to the caller    |
