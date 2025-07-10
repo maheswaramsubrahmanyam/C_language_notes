@@ -21,7 +21,9 @@ int main()
 {
     printf("Studyopedia C Language Tutorial"); 
     return 0;
-}
+}```
+---
+
 | Component    | Description                                                  |
 | ------------ | ------------------------------------------------------------ |
 | `#include`   | Preprocessor directive; the first thing read by the compiler |
