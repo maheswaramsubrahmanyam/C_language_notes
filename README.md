@@ -164,3 +164,28 @@ return 0;
 
 }
 ```
+
+---
+
+// comments in C langunage 
+comments are used to explain the code , it provide more readbulity of program & it doesn't involve the code <br>
+comments are two types <br>
+single line comments <br>
+multi line commenrs <br>
+
+single line comments are declared as two farword slahes (//)<br>
+// printing hello world on disply using printf() function <br>
+printf("Hello World");<br>
+
+Multi-line comments <br>
+ 
+multi- line comments are starts with /* comments  */<br>
+ends with */ <br>
+/*
+kqsdbkj
+edjewj
+jewoe
+ewlew
+ewljewnjew
+oewe
+*/
