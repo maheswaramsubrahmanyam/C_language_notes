@@ -300,3 +300,37 @@ int main() {
 }
 ```
 📝 Note: Using (float) before a variable tells the compiler to treat that variable as a float for the operation.<br>
+
+---
+
+## 🔒 Constants in C
+
+In C programming, if you want to make a variable **constant**—meaning its value should never change throughout the program—you can use the `const` keyword.
+
+### 🧠 What is `const`?
+
+- `const` is a **keyword** used to declare **constant variables**.
+- Once declared with `const`, the value of the variable **cannot be modified** later in the program.
+
+---
+
+### 🔍 Example: Constant Variable in C
+
+```c
+#include<stdio.h>
+
+int main() {
+    const int a = 10;  // 'a' is a constant and cannot be changed
+    printf("%d\n", a);
+    return 0;
+}
+```
+
+##📌 Tip: Constants are especially useful for defining fixed values like PI, maximum limits, configuration settings, etc.<br>
+
+```
+const float PI = 3.14;
+const int MAX_USERS = 100;
+```
+---
+
