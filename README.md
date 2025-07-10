@@ -148,4 +148,19 @@ return 0;
 ```
 ---
 
+<br>
 
+```#include<stdio.h>
+int main() {
+    
+int a = 156;
+float b = 14.3;
+char c = 'A';
+
+// to combine text and variables, seperate them with a comma inside the printf() function
+printf("My integer value is :%d", a);
+
+return 0;
+
+}
+```
