@@ -162,8 +162,7 @@ int main() {
 
 <br>
 
-```
-#include<stdio.h>
+```#include<stdio.h>
 
 int main() {
     int a = 156;
@@ -174,7 +173,8 @@ int main() {
     printf("My integer value is : %d", a);
 
     return 0;
-}```
+}
+```
 
 
 
