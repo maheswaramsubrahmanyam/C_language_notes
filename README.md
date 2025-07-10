@@ -242,3 +242,61 @@ int main() {
     return 0;
 }
 ```
+
+---
+## 🔁 Type Conversion in C
+
+**Type Conversion** is the process of converting one data type into another. This is especially important when performing operations between different types (e.g., integers and floats).
+
+---
+
+### 📦 Example Use Case
+
+Suppose you're dividing two integers:
+
+```c
+int a = 5;
+int b = 2;
+int result;
+
+result = a / b;  // Output: 2 (0.5 is neglected because of integer division)
+```
+---
+🧠 Types of Type Conversion<br>
+Type conversions in C are of two types:<br>
+
+Implicit Conversion (Automatic)<br>
+
+Explicit Conversion (Manual)<br>
+
+1️⃣ Implicit Conversion<br>
+In implicit conversion, the compiler automatically converts a smaller data type to a larger data type to prevent data loss.<br>
+
+🔍 Example: Implicit Conversion<br>
+```
+#include<stdio.h>
+
+int main() {
+    float a = 88;  // Integer 88 is implicitly converted to float
+    printf("%f", a);
+    return 0;
+}
+```
+2️⃣ Explicit Conversion (Type Casting)<br>
+In explicit conversion, the programmer manually converts one data type into another using casting.<br>
+
+🔍 Example: Explicit Conversion<br>
+```
+#include<stdio.h>
+
+int main() {
+    int a = 5;
+    int b = 2;
+
+    float result = (float) a / b;  // Casting a to float before division
+    printf("%f\n", result);
+
+    return 0;
+}
+```
+📝 Note: Using (float) before a variable tells the compiler to treat that variable as a float for the operation.<br>
