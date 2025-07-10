@@ -93,5 +93,69 @@ Generates a file with a .obj (DOS) or .o (UNIX) extension. <br>
 Combines the program’s object code with library object code. <br>
 
 Produces the final executable file (.exe for DOS or a.out for UNIX). <br>
+![image](https://github.com/user-attachments/assets/ff56cf6a-9e3e-4a24-bea8-f35ce9f91e9b)
+
 ---
+###Data Types:<br>
+| Type     | Description                     | Example                 |
+| -------- | ------------------------------- | ----------------------- |
+| `int`    | Integer                         | `int a = 5;`            |
+| `float`  | Floating-point (decimal) number | `float b = 0.54;`       |
+| `char`   | Single character                | `char c = 'A';`         |
+| `string` | Character array (not a keyword) | `char str[] = "Hello";` |
+
+
+---
+📦 Variables in C <br>
+Variables are containers for storing data values.<br>
+
+Syntax<br>
+```Data_type variable_name = value;```
+
+Data_type: e.g., int, float, char<br>
+
+variable_name: any valid identifier<br>
+
+value: e.g., 99, 0.54, 'c', "text"<br>
+
+```
+int num = 10;
+float num2 = 0.693;
+int a;       // Variable declaration
+a = 20;      // Assigning value
+
+```
+---
+🔠 Format Specifiers <br>
+Use format specifiers with printf() to print variable values.<br>
+| Data Type | Format Specifier |
+| --------- | ---------------- |
+| `int`     | `%d`             |
+| `float`   | `%f`             |
+| `char`    | `%c`             |
+| `string`  | `%s`             |
+
+---
+🧾 Example Code: Format Specifiers
+<br>
+
+```
+#include<stdio.h>
+
+int main() {
+    int a = 156;
+    int d = 25;
+
+    printf("%d \n%d \n", a, d);
+
+    float b = 14.3;
+    printf("%f\n", b);
+
+    char c = 'A';
+    printf("%c\n", c);
+
+    return 0;
+}
+```
+
 
