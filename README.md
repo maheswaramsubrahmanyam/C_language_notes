@@ -88,3 +88,60 @@ Linker<br>
 The linker combines the program’s object code with library object code.<br>
 It produces the final executable file like .exe (DOS) or a.out (UNIX).<br>
 <br>
+
+
+```
+// # data types in C 
+// Integer => int 
+// Float  => float
+// Boolean => bool
+// String => char string
+
+// ========================
+// Variables in C 
+// variables are containers for storing data values like number or charater 
+
+// In c language we have diffrent types of varables 
+// int -> (-infinity to + infinity)
+// float -> (0.1 5.99)
+// char -> storing single letter / charater susch as 'a','A'
+
+// Declaring (Creating) Variables 
+
+// syntax:
+// Data_type Varable_name = value;
+
+// Data_type => (int,float , char, string)
+// varable_name => container name 
+// value => 99, 0.54, 'c' ,"hjfs"
+
+// example:
+// int num = 10;
+// float num2 = 0.693;
+// int a; # Varable Declartion 
+// a = 20; #value assigned to variable 
+
+// ----------------------------------------
+// Format Specifires
+
+// int => %d 
+// float => %f 
+// char => %c 
+// string => %s 
+// printf()
+#include<stdio.h>
+int main() {
+    
+int a = 156;
+int d = 25;
+
+printf("%d \n%d \n",a,d);
+
+float b = 14.3;
+printf("%f\n",b);
+
+char c = 'A';
+printf("%c\n",c);
+return 0;
+
+}```
