@@ -334,3 +334,105 @@ const int MAX_USERS = 100;
 ```
 ---
 
+# ⚙️ Operators in C
+
+**Operators** are used to perform operations on variables and values.
+
+---
+
+## ➕ Basic Operator Example
+
+```c
+int myNum = 100 + 50;
+```
+Although the + operator is often used to add together two values, it can also be used with:
+```
+int sum1 = 100 + 50;        // 150
+int sum2 = sum1 + 250;      // 400
+int sum3 = sum2 + sum2;     // 800
+```
+---
+🧩 Types of Operators in C <br>
+C divides operators into the following groups:<br>
+
+Arithmetic Operators<br>
+
+Assignment Operators<br>
+
+Comparison Operators<br>
+
+Logical Operators<br>
+
+Bitwise Operators<br>
+
+## ➗ Arithmetic Operators<br>
+
+Arithmetic operators are used to perform basic mathematical operations.<br>
+
+| Operator | Name           | Description                       | Example |
+| -------- | -------------- | --------------------------------- | ------- |
+| `+`      | Addition       | Adds two values                   | `x + y` |
+| `-`      | Subtraction    | Subtracts one value from another  | `x - y` |
+| `*`      | Multiplication | Multiplies two values             | `x * y` |
+| `/`      | Division       | Divides one value by another      | `x / y` |
+| `%`      | Modulus        | Returns the remainder of division | `x % y` |
+| `++`     | Increment      | Increases value by 1              | `++x`   |
+| `--`     | Decrement      | Decreases value by 1              | `--x`   |
+
+
+---
+## 📝 Assignment Operators
+Assignment operators are used to assign values to variables.<br>
+
+```
+int x = 10;  // Assigns 10 to x
+x += 5;      // Equivalent to x = x + 5;
+```
+| Operator | Example   | Same As      |       |         |     |
+| -------- | --------- | ------------ | ----- | ------- | --- |
+| `=`      | `x = 5`   | `x = 5`      |       |         |     |
+| `+=`     | `x += 3`  | `x = x + 3`  |       |         |     |
+| `-=`     | `x -= 3`  | `x = x - 3`  |       |         |     |
+| `*=`     | `x *= 3`  | `x = x * 3`  |       |         |     |
+| `/=`     | `x /= 3`  | `x = x / 3`  |       |         |     |
+| `%=`     | `x %= 3`  | `x = x % 3`  |       |         |     |
+| `&=`     | `x &= 3`  | `x = x & 3`  |       |         |     |
+| \`       | =\`       | \`x          | = 3\` | \`x = x | 3\` |
+| `^=`     | `x ^= 3`  | `x = x ^ 3`  |       |         |     |
+| `>>=`    | `x >>= 3` | `x = x >> 3` |       |         |     |
+| `<<=`    | `x <<= 3` | `x = x << 3` |       |         |     |
+
+---
+
+## 🔍 Comparison Operators
+Used to compare two values. Returns 1 for true, 0 for false.<br>
+
+```
+int x = 5;
+int y = 3;
+
+printf("%d", x > y);  // Outputs 1 because 5 > 3
+```
+
+| Operator | Name                  | Example  | Description                             |
+| -------- | --------------------- | -------- | --------------------------------------- |
+| `==`     | Equal to              | `x == y` | True if x is equal to y                 |
+| `!=`     | Not equal to          | `x != y` | True if x is not equal to y             |
+| `>`      | Greater than          | `x > y`  | True if x is greater than y             |
+| `<`      | Less than             | `x < y`  | True if x is less than y                |
+| `>=`     | Greater than or equal | `x >= y` | True if x is greater than or equal to y |
+| `<=`     | Less than or equal    | `x <= y` | True if x is less than or equal to y    |
+
+---
+## 🔗 Logical Operators
+Used to combine multiple conditions and return true or false.<br>
+
+| Operator | Name | Example              | Description                              |         |   |         |                                            |
+| -------- | ---- | -------------------- | ---------------------------------------- | ------- | - | ------- | ------------------------------------------ |
+| `&&`     | AND  | `x < 5 && x < 10`    | True if **both** conditions are true     |         |   |         |                                            |
+| \`       |      | \`                   | OR                                       | \`x < 5 |   | x < 4\` | True if **at least one** condition is true |
+| `!`      | NOT  | `!(x < 5 && x < 10)` | Reverses the result (true becomes false) |         |   |         |                                            |
+
+
+
+
