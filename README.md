@@ -388,19 +388,20 @@ Assignment operators are used to assign values to variables.<br>
 int x = 10;  // Assigns 10 to x
 x += 5;      // Equivalent to x = x + 5;
 ```
-| Operator | Example   | Same As      |       |         |     |
-| -------- | --------- | ------------ | ----- | ------- | --- |
-| `=`      | `x = 5`   | `x = 5`      |       |         |     |
-| `+=`     | `x += 3`  | `x = x + 3`  |       |         |     |
-| `-=`     | `x -= 3`  | `x = x - 3`  |       |         |     |
-| `*=`     | `x *= 3`  | `x = x * 3`  |       |         |     |
-| `/=`     | `x /= 3`  | `x = x / 3`  |       |         |     |
-| `%=`     | `x %= 3`  | `x = x % 3`  |       |         |     |
-| `&=`     | `x &= 3`  | `x = x & 3`  |       |         |     |
-| \`       | =\`       | \`x          | = 3\` | \`x = x | 3\` |
-| `^=`     | `x ^= 3`  | `x = x ^ 3`  |       |         |     |
-| `>>=`    | `x >>= 3` | `x = x >> 3` |       |         |     |
-| `<<=`    | `x <<= 3` | `x = x << 3` |       |         |     |
+| Operator | Example   | Same As      | 
+| -------- | --------- | ------------ |
+| `=`      | `x = 5`   | `x = 5`      | 
+| `+=`     | `x += 3`  | `x = x + 3`  | 
+| `-=`     | `x -= 3`  | `x = x - 3`  |    
+| `*=`     | `x *= 3`  | `x = x * 3`  |     
+| `/=`     | `x /= 3`  | `x = x / 3`  |      
+| `%=`     | `x %= 3`  | `x = x % 3`  |   
+| `&=`     | `x &= 3`  | `x = x & 3`  |     
+| `        | =`        |  `x          | 
+| `^=`     | `x ^= 3`  | `x = x ^ 3`  |   
+| `>>=`    | `x >>= 3` | `x = x >> 3` |   
+| `<<=`    | `x <<= 3` | `x = x << 3` |    
+
 
 ---
 
@@ -423,14 +424,17 @@ printf("%d", x > y);  // Outputs 1 because 5 > 3
 | `>=`     | Greater than or equal | `x >= y` | True if x is greater than or equal to y |
 | `<=`     | Less than or equal    | `x <= y` | True if x is less than or equal to y    |
 
+
 ---
+
 ## 🔗 Logical Operators
+
 Used to combine multiple conditions and return true or false.<br>
 
 | Operator | Name | Example              | Description                              |         |   |         |                                            |
 | -------- | ---- | -------------------- | ---------------------------------------- | ------- | - | ------- | ------------------------------------------ |
 | `&&`     | AND  | `x < 5 && x < 10`    | True if **both** conditions are true     |         |   |         |                                            |
-| \`       |      | \`                   | OR                                       | \`x < 5 |   | x < 4\` | True if **at least one** condition is true |
+| ||`      |      |  `x < 5 || x < 10`   | OR                                       |  `x < 5 |   | x < 4 ` | True if **at least one** condition is true |
 | `!`      | NOT  | `!(x < 5 && x < 10)` | Reverses the result (true becomes false) |         |   |         |                                            |
 
 
