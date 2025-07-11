@@ -593,10 +593,10 @@ int time = 20;
 ```
 📝 Both versions produce the same output. Use whichever is more readable or appropriate for your use case.<br>
 
--The ternary operator is a cleaner way to write simple if...else conditions.
+- The ternary operator is a cleaner way to write simple if...else conditions.
 
--Use it when a decision needs to be made between two values or expressions.
+- Use it when a decision needs to be made between two values or expressions.
 
--It helps make your code shorter and more concise.
+- It helps make your code shorter and more concise.
 
 - Tip: Avoid using ternary operators for complex logic — it may reduce code readability.
