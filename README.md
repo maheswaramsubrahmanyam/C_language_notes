@@ -431,11 +431,11 @@ printf("%d", x > y);  // Outputs 1 because 5 > 3
 
 Used to combine multiple conditions and return true or false.<br>
 
-| Operator | Name | Example              | Description                              |         |   |         |                                            |
-| -------- | ---- | -------------------- | ---------------------------------------- | ------- | - | ------- | ------------------------------------------ |
-| `&&`     | AND  | `x < 5 && x < 10`    | True if **both** conditions are true     |         |   |         |                                            |
-| ||`      |      |  `x < 5 || x < 10`   | OR                                       |  `x < 5 |   | x < 4 ` | True if **at least one** condition is true |
-| `!`      | NOT  | `!(x < 5 && x < 10)` | Reverses the result (true becomes false) |         |   |         |                                            |
+| Operator | Name | Example              | Description                              |   
+| -------- | ---- | -------------------- | ---------------------------------------- | 
+| `&&`     | AND  | `x < 5 && x < 10`    | True if **both** conditions are true     |     
+| `||`     |      |  `x < 5 || x < 10`   | True if **at least one**condition is true|                               
+| `!`      | NOT  | `!(x < 5 && x < 10)` | Reverses the result (true becomes false) |         
 
 
 
