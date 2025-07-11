@@ -483,4 +483,75 @@ if (condition) {
     // block of code to be executed if the condition is true
 }
 ```
+```
+#include <stdio.h>
 
+int main() {
+    int a = 7;
+
+    if (a > 5) {
+        printf("A is greater than 5 and value of A is: %d\n", a);
+    }
+
+    return 0;
+}
+```
+## ```if...else``` Statement
+ Syntax<br>
+```
+if (condition) {
+    // block of code if true
+} else {
+    // block of code if false
+}
+
+```
+```
+#include <stdio.h>
+
+int main() {
+    int time = 20;
+
+    if (time <= 12) {
+        printf("Good Morning!");
+    } else {
+        printf("Good Evening!");
+    }
+
+    return 0;
+}
+```
+## ```if...else if...else``` Statement
+🧾 Syntax <br>
+```
+if (condition1) {
+    // block of code
+} else if (condition2) {
+    // block of code
+} else if (condition3) {
+    // block of code
+} else {
+    // default block of code
+}
+
+```
+
+```
+#include <stdio.h>
+
+int main() {
+    int time = 14;
+
+    if ((time >= 1) && (time <= 12)) {
+        printf("Good Morning!");
+    } else if ((time > 12) && (time < 16)) {
+        printf("Good Afternoon!");
+    } else if ((time > 16) && (time <= 18)) {
+        printf("Good Evening!");
+    } else {
+        printf("Good Night!");
+    }
+
+    return 0;
+}
+```
