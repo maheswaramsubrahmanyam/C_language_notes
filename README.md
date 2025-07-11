@@ -555,3 +555,48 @@ int main() {
     return 0;
 }
 ```
+
+---
+# ✂ Short Hand If...Else (Ternary Operator)
+
+C also supports a **short-hand version of the `if...else` statement**, known as the **ternary operator**.
+
+It is called **ternary** because it uses **three operands**:
+- A condition
+- A result if the condition is true
+- A result if the condition is false
+
+---
+
+## 🔧 Syntax
+
+```c
+variable = (condition) ? expressionTrue : expressionFalse;
+```
+## Traditional if...else vs Ternary Operator
+## Traditional if...else
+```
+int time = 20;
+
+if (time < 18) {
+    printf("Good day.");
+} else {
+    printf("Good evening.");
+}
+
+```
+##  Using Ternary Operator
+```
+int time = 20;
+
+(time < 18) ? printf("Good day.") : printf("Good evening.");
+```
+📝 Both versions produce the same output. Use whichever is more readable or appropriate for your use case.<br>
+
+-The ternary operator is a cleaner way to write simple if...else conditions.
+
+-Use it when a decision needs to be made between two values or expressions.
+
+-It helps make your code shorter and more concise.
+
+- Tip: Avoid using ternary operators for complex logic — it may reduce code readability.
