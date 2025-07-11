@@ -438,5 +438,49 @@ Used to combine multiple conditions and return true or false.<br>
 | `!`      | NOT  | `!(x < 5 && x < 10)` | Reverses the result (true becomes false)   |         
 
 
+---
 
+# 🔀 Conditions and If Statements in C
+
+C supports logical conditions that allow you to perform different actions based on different decisions.
+
+---
+
+## 📐 Logical Conditions
+
+These are the common logical conditions used in C:
+
+| Condition              | Symbol  |
+|------------------------|---------|
+| Less than              | `<`     |
+| Less than or equal to  | `<=`    |
+| Greater than           | `>`     |
+| Greater than or equal  | `>=`    |
+| Equal to               | `==`    |
+| Not equal to           | `!=`    |
+
+---
+
+## 🧠 Conditional Statements in C
+
+C provides the following conditional statements:
+
+- `if` – Executes a block of code if a specified condition is `true`.
+- `else` – Executes a block of code if the same condition is `false`.
+- `else if` – Specifies a new condition to test if the first condition is `false`.
+- `switch` – Selects one of many blocks of code to be executed.
+
+---
+
+## ✅ The `if` Statement
+
+Use the `if` statement to specify a block of code to run when a condition is true.
+
+### 🧾 Syntax
+
+```c
+if (condition) {
+    // block of code to be executed if the condition is true
+}
+```
 
