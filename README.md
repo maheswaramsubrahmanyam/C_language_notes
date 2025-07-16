@@ -600,3 +600,80 @@ int time = 20;
 - It helps make your code shorter and more concise.
 
 - Tip: Avoid using ternary operators for complex logic — it may reduce code readability.
+
+---
+
+# Loops in C
+
+Loops can execute a block of code as long as a specified condition is reached.
+
+Loops are handy because they:
+
+- Save time
+- Reduce errors
+- Make code more readable
+- less code 
+
+## Types of loops in c 
+- while loop 
+- do while loop
+- for loop 
+---
+
+## 💡 While Loop
+
+The `while` loop loops through a block of code **as long as a specified condition is true**:
+
+### 🔧 Syntax
+
+```c
+while (condition) {
+  // code block to be executed
+}
+```
+##example 
+```
+#include<stdio.h>
+
+int main() {
+
+int i = 0;
+while (i<=3) { 
+    //i=0 0<=3 true 
+    //i=1 1<=3 true 
+    //i=2 2<=3 true
+    //i=3 3<=3 true
+    //i=4 4<=3 false 
+    printf("%d \n",i); // 0 1 2 3
+    i++; 
+    // i+1 => 0+1 i=>1
+    // i+1 => 1+1 i=>2
+    // i+1 => 2+1 i=>3
+    // i+1 => 3+1 i=>4
+}
+
+}
+```
+**Note: Do not forget to increase the variable used in the condition (i++), otherwise the loop will never end!**
+## Why Use i?
+We often use i as a loop counter because it's short, traditional, and stands for 'index' or 'iterator'.
+
+## Countdown Example
+This example counts down from 3 to 1 and then displays "Happy New Year!!" at the end:
+ 
+```
+#include<stdio.h>
+
+int main() {
+    
+    int countdown = 3;
+    while (countdown>0) { 
+        printf("%d \n", countdown);
+        countdown --; // 
+    }
+    printf("Happy New Year!!");
+}
+```
+
+
+
