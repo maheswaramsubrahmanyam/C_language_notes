@@ -675,5 +675,41 @@ int main() {
 }
 ```
 
+## The Do/While Loop
+The `do/while loop` is a variant of the `while loop`. It executes the block of code once before checking the condition.
+```
+do {
+  // code block to be executed
+} while (condition);
+```
 
+## example 
+
+```
+#include<stdio.h>
+
+int main() {
+    
+int i = 0;
+do {
+    printf("%d \n",i);
+    i++;
+}while (i<5);//true  
+
+}
+```
+## Event the condition is false it excute once becouse do while loop excite onnce even condition is false 
+```
+#include<stdio.h>
+
+int main() {
+    
+int i = 0;
+do {
+    printf("%d \n",i);
+    i++;
+}while (i>10);//false 
+
+}
+```
 
