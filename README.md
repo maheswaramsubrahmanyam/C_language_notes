@@ -713,3 +713,16 @@ do {
 }
 ```
 
+# C `for` Loop Examples
+
+## Introduction
+
+When you know exactly how many times you want to loop through a block of code, use the `for` loop instead of a `while` loop.
+
+### Syntax
+
+```c
+for (expression 1; expression 2; expression 3) {
+  // code block to be executed
+}
+```
