@@ -726,3 +726,60 @@ for (expression 1; expression 2; expression 3) {
   // code block to be executed
 }
 ```
+- Expression 1 is executed once before the loop starts.
+
+- Expression 2 defines the condition for running the loop.
+
+- Expression 3 is executed after each iteration of the loop.
+
+# Examples
+# 1. Print Numbers from 0 to 4
+```
+#include <stdio.h>
+
+int main() {
+   
+  for(int i=0; i<=5; i++){ // i+1  i=0+1 =>i =1 +1 => i=2 +1 => i=3+1 
+    printf("%d\n",i);
+  }
+}
+```
+# Explanation:
+
+- Statement 1: int i = 0; sets a variable before the loop starts.
+
+- Statement 2: i < 5; checks the loop condition.
+
+- Statement 3: i++ increments the value after each iteration.
+
+#  Sum of Numbers from 1 to 5
+
+```
+//sum of numbers from 1 to 5 
+
+// 1 + 2 +  3 +  4 + 5 =15
+#include <stdio.h>
+int i;
+int sum=0;
+int main() {
+   
+   for(i=0; i<=5; i++){
+       sum = sum + i;
+       // sum = 0 
+       // 0+1 =1 sum = 0+1 =1 
+       // 1+1 =2 sum = 1+2 =3
+       // 2+1 =3 sum = 3+3 =6
+       // 3+1 =4 sum = 6+4 =10
+       // 4+1 =5 sum =10+5 =15
+       // 5  doesn't excute 
+       printf("%d\n",sum);
+   }
+   printf("------------------\n");
+   printf("finnal answer: ");
+   printf("%d",sum);
+}
+```
+
+
+
+
